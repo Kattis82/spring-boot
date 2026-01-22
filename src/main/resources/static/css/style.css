@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: hotpink; /* knallrosa bakgrund */
+    margin: 20px;
+}
+
+h1 {
+    color: #2c3e50; /* mörkblå */
+    border-bottom: 2px solid #3498db; /* blå linje under */
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: none; /* ta bort punkter */
+    padding: 0;
+}
+
+
+li {
+    background-color: #ecf0f1;
+    margin: 5px 0;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+
+li:hover {
+    transform: scale(1.03);
+    background-color: #3498db;
+    color: white;
+}
+
+li:nth-child(even) {
+    background-color: #ffd1e8;
+}
+
+
