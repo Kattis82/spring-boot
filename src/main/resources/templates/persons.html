@@ -1,0 +1,34 @@
+<!-- Övning 7 -->
+
+<!--<!DOCTYPE html>-->
+<!--<html xmlns:th="http://www.thymeleaf.org">-->
+<!--<head>-->
+<!--    <title>Personer</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<h1>Mina favoritpersoner</h1>-->
+<!--<ul>-->
+<!--    <li th:each="person : ${persons}" th:text="${person}">Person</li>-->
+<!--</ul>-->
+<!--</body>-->
+<!--</html>-->
+
+
+<!-- Övning 8 -->
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Personlista</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+<h1>Personer</h1>
+<ul>
+    <li th:each="person : ${persons}">
+        <span th:text="${person.name}">Namn</span> -
+        <span th:text="${person.age}">Ålder</span> -
+        <span th:text="${person.email}">Email</span>
+    </li>
+</ul>
+</body>
+</html>
