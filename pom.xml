@@ -65,6 +65,12 @@
             <artifactId>h2</artifactId>
         </dependency>
     </dependencies>
+    <repositories>
+        <repository>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/kattis82/textformatting</url>
+        </repository>
+    </repositories>
 
     <build>
         <plugins>
